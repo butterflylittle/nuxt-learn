@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header>kunlang</header>
+       <LayoutDefaultHeader />
         <main>
             <slot></slot>
         </main>

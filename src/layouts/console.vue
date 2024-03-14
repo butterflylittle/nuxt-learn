@@ -1,8 +1,8 @@
 <template>
   <div>
-    <aside>kunlang</aside>
-    <main>
+    <LayoutConsoleAside />
+    <LayoutConsoleMain>
       <slot></slot>
-    </main>
+    </LayoutConsoleMain>
   </div>
 </template>
