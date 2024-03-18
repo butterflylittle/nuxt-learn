@@ -5,4 +5,8 @@
 definePageMeta({
   layout: 'blank',
 });
+
+useHead({
+  title: '登录',
+});
 </script>

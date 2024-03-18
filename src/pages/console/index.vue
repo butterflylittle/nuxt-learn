@@ -5,4 +5,8 @@
 definePageMeta({
   layout: 'console',
 });
+
+useHead({
+  title: '控制台',
+});
 </script>
