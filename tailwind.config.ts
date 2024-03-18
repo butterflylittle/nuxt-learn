@@ -12,4 +12,6 @@ export default <Partial<Config>>{
         }
     },
   },
+  //暗色模式
+    darkMode: 'class',
 }

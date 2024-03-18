@@ -4,16 +4,23 @@ export default defineNuxtConfig({
   //源文件
   srcDir: 'src',
   //模块
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxt/ui','@nuxtjs/tailwindcss','@nuxtjs/color-mode'],
+  // modules: ['@nuxt/ui'],
+  /**
+   * 颜色模式
+   */
+  colorMode: {
+    classSuffix: '',
+  },
   //配置
-  runtimeConfig:{
-    public:{
-      appName: 'My App'
+  runtimeConfig: {
+    public: {
+      appName: 'My App',
     },
     //surrealDB
-    surreal:{
+    surreal: {
       rootUser: 'root',
-      rootPass:'258369'
-    }
-  }
+      rootPass: '258369',
+    },
+  },
 })
